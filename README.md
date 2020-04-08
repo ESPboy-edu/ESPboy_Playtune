@@ -1,4 +1,4 @@
-# ESPboyPlaytune library for ESP8266 / ESPboy
+# ESPboyPlaytune multichannel sound synthesis library for ESP8266 / ESPboy
 # --------------------------------------------------------
 
 Improved port of the ArduboyPlaytune library modified to work well with the ESP8266 and [ESPboy project](https://hackaday.io/project/164830-espboy-games-iot-stem-for-education-fun) 
