@@ -14,8 +14,8 @@ by Shiru: shiru@mail.ru
 - https://shiru.untergrund.net
 
 Check sound quality, recorded from the standard ESPboy with iPhone 5s playing whis files
-- [ESPboy_Playtone_test.mp3](ESPboy_Playtone_test.mp3)
-- [ESPboy_Playtone_test.m4a](ESPboy_Playtone_test.m4a)
+- [ESPboy_Playtune_test.mp3](ESPboy_Playtune_test.mp3)
+- [ESPboy_Playtune_test.m4a](ESPboy_Playtune_test.m4a)
 
 
 # --------------------------------------------------------
