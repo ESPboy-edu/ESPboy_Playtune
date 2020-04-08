@@ -9,9 +9,12 @@ WARNING:
 The ArduboyPlaytune library uses <sigma_delta.h> transformations so it could conflict with EEPROM and other libs.
 Stop play during the operations with EEPROM.
 
-by Shiru: shiru@mail.ru
+by Shiru: [shiru@mail.ru](mailto:shiru@mail.ru)
 - https://www.patreon.com/shiru8bit
 - https://shiru.untergrund.net
+- [Alone - an instrumental synth rock album by Shiru](https://www.youtube.com/watch?v=SUOH2vxHhlo&t=21s)
+- [System Beeps (2019) - Full Album by Shiru](https://www.youtube.com/watch?v=tUy1MEpqbvk)
+- [Shiru's 1-Bit Music 2010 Compilation](https://www.youtube.com/watch?v=lZRcGWa0Rrw&t=1810s)
 
 Check sound quality, recorded from the standard ESPboy with iPhone 5s playing whis files
 - [ESPboy_Playtune_test.mp3](ESPboy_Playtune_test.mp3)
