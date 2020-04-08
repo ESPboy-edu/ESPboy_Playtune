@@ -11,8 +11,7 @@ Stop play during the operations with EEPROM.
 
 by Shiru: shiru@mail.ru
 - https://www.patreon.com/shiru8bit
-- https://www.ESPboy.com/
-
+- https://shiru.untergrund.net
 
 Check sound quality, recorded from the standard ESPboy with iPhone 5s playing whis files
 - [ESPboy_Playtone_test.mp3](ESPboy_Playtone_test.mp3)
