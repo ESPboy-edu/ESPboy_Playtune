@@ -1,3 +1,32 @@
+#ESPboyPlaytune
+
+Improved port of the ArduboyPlaytune library modified to work well with the ESP8266 and [ESPboy project](https://hackaday.io/project/164830-espboy-games-iot-stem-for-education-fun) 
+
+It supports up to 8 channels simultaneously, last channel also used for tone.
+
+
+WARNING
+
+The ArduboyPlaytune library uses <sigma_delta.h> transformations so it could conflict with EEPROM and other libs.
+
+Stop play during the operations with EEPROM.
+
+
+by Shiru: shiru@mail.ru
+
+- https://www.patreon.com/shiru8bit
+
+- https://www.ESPboy.com/
+
+Check to test sound quality, recorded from the standard ESPboy with iPhone 5s
+
+- ESPboy_Playtone_test.m4a
+
+- ESPboy_Playtone_test.mp3
+
+
+#--------------------------------------------------------
+
 # ArduboyPlaytune
 
 The ArduboyPlaytune library is maintained in a git repository hosted on [GitHub](https://github.com/) at:
