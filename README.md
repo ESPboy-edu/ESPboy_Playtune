@@ -4,7 +4,7 @@ Improved port of the ArduboyPlaytune library modified to work well with the ESP8
 
 It supports up to 8 channels simultaneously, last channel used for tone.
 
-WARNING
+WARNING:
 The ArduboyPlaytune library uses <sigma_delta.h> transformations so it could conflict with EEPROM and other libs.
 Stop play during the operations with EEPROM.
 
