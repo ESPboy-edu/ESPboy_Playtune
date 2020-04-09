@@ -16,7 +16,7 @@ by Shiru: [shiru@mail.ru](mailto:shiru@mail.ru)
 - [System Beeps (2019) - Full Album by Shiru](https://www.youtube.com/watch?v=tUy1MEpqbvk)
 - [Shiru's 1-Bit Music 2010 Compilation](https://www.youtube.com/watch?v=lZRcGWa0Rrw&t=1810s)
 
-Check sound quality, recorded from the standard ESPboy with iPhone 5s playing whis files
+Check sound quality, recorded from the standard ESPboy with iPhone 5s 
 - [ESPboy_Playtune_test.mp3](ESPboy_Playtune_test.mp3)
 - [ESPboy_Playtune_test.m4a](ESPboy_Playtune_test.m4a)
 
