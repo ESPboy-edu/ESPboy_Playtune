@@ -120,18 +120,18 @@ void ESPboyPlaytune::stepSong()
 
       break;
     }
-    else if ((op >= EPT_OP_RESTART) && (op < EPT_OP_STOP))
+    else if (op == EPT_OP_RESTART)
     {
-		if((op&0x0f)==0||songRepeat<(op&0x0f))
-		{
-			songPtr = songData;
-		}
-		
-		++songRepeat;
+      if ((chan == 0) || (songRepeat < chan))
+      {
+        songPtr = songData;
+      }
+
+      ++songRepeat;
     }
     else if (op == EPT_OP_STOP)
     {
-      songPlaying = false;
+      stopScore();
       break;
     }
   }
@@ -209,7 +209,7 @@ void ESPboyPlaytune::genISR()
             if (genDur[chn] < 0xffffffff) --genDur[chn];
 
             uint32_t prev = genAcc[chn];
-            
+
             genAcc[chn] += genAdd[chn];
 
             if (genAcc[chn] < prev) genOut = genWidth;
