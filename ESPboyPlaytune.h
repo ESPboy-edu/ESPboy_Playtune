@@ -71,6 +71,7 @@ class ESPboyPlaytune
     boolean songPlaying;
     const uint8_t* songData;
     const uint8_t* songPtr;
+	uint8_t songRepeat;
 
     uint32_t genAcc[EPT_CHANNELS];
     uint32_t genAdd[EPT_CHANNELS];
@@ -78,7 +79,6 @@ class ESPboyPlaytune
     uint16_t genOut;
     uint16_t genType;
     uint16_t genWidth;
-
 };
 
 #endif

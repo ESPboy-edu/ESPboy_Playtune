@@ -31,7 +31,7 @@ ESPboyPlaytune::ESPboyPlaytune(boolean (*outEn)())
 
   genType = EPT_SYNTH_SQUARE;
   genOut = 0;
-  genWidth = 200;
+  genWidth = 128;
 
   songPlaying = false;
   songWait = 0;
@@ -77,6 +77,7 @@ void ESPboyPlaytune::playScore(const byte *song_data)
 {
   songData = song_data;
   songPtr = song_data;
+  songRepeat = 0;
 
   stepSong();
 
@@ -119,9 +120,14 @@ void ESPboyPlaytune::stepSong()
 
       break;
     }
-    else if (op == EPT_OP_RESTART)
+    else if ((op >= EPT_OP_RESTART) && (op < EPT_OP_STOP))
     {
-      songPtr = songData;
+		if((op&0x0f)==0||songRepeat<(op&0x0f))
+		{
+			songPtr = songData;
+		}
+		
+		++songRepeat;
     }
     else if (op == EPT_OP_STOP)
     {
